@@ -26,3 +26,9 @@ function split() {
     return methodSplit
 }
 console.log(split())
+
+
+//Substrings practice from class 11/13/2023
+//sample.substring(sample.indexOf("Codeup"), sample.indexof("Codeup") +6);
+
+//sample.substring(indexOfCodeup, indexofCodeup + 6);
