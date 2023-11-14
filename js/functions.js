@@ -6,15 +6,21 @@
 //  * When called, the function should return a message that says hello to the passed in name.
 //  *
 //  * Example
-//  * > sayHello("codeup") // returns "Hello, codeup!"
+//  * > sayHello("Code up") // returns "Hello, Code up!"
 //  */
-//attempt at using arrow function
-//const sayHello = (name) => console.log(`Hello ${name}`);
-function sayHello (name) {
+
+
+//Using Arrow function Below, converted regular function
+const sayHello = (name) => `Hello ${name}`;
+
+//Longer way of achieving the same goal using arrow function
+/*function sayHello (name) {
     let greeting = `Hello ${name}`;
     console.log(greeting);
     return greeting;
-}
+
+ */
+console.log(sayHello('Coleen'));
 
 //
 // /**
@@ -44,7 +50,7 @@ console.log(helloMessage);
  const random = Math.floor((Math.random() * 3) + 1);
 
 let myName = 'Alexis';
-sayHello(myName);
+console.log(sayHello(myName));
 //
 // /**
 //  * TODO:
@@ -52,19 +58,26 @@ sayHello(myName);
 //  * The function should return a boolean value based on whether or not the passed
 //  * number is the number 2.
 
+//Using arrow function below instead of regular function
+const isTwo = (number) => number === 2;
+
+//Switched out regular function with arrow function
+/*
 function isTwo (number) {
     return number === 2;
 }
-console.log(isTwo(5));
+*/
+
+console.log(isTwo(2));
 //  *
 //  * Example
 //  * > isTwo(1) // returns false
 //  * > isTwo(2) // returns true
 //  * > isTwo(3) // returns false
 //  *
-//  * Call the function 'isTwo' passing the variable 'random' as a argument.
+//  * Call the function 'isTwo' passing the variable 'random' as an argument.
 //  *
-//  * console.log *outside of the function* to check your work (you should see a
+//  * console.log *outside the function* to check your work (you should see a
 //  * different result everytime you refresh the page if you are using the random
 //  * number)
 //  */
@@ -86,8 +99,6 @@ console.log(isTwo(random));
 function calculateTip (tipPercentage, bill) {
     let tip = bill * tipPercentage;
     let billPrice = tip + bill;
-
-
     console.log(`The total bill will be $ ${billPrice.toFixed(2)}`);
     console.log(`The amount to tip is $ ${tip.toFixed(2)}`);
     return tip.toFixed(2);
@@ -104,6 +115,8 @@ console.log(calculateTip(0.15, 33.42));
 
 let customerBillTotal = prompt('How much is the bill total?');
 let customerTipAmount = prompt('What is the percentage that you would like to tip?');
+
+//apply function name in front of the variables below
 let tipAmount = customerBillTotal * customerTipAmount;
 //let tipAmountShort = tipAmount.toFixed(2);
 
