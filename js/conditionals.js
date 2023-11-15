@@ -63,9 +63,6 @@ console.log(analyzeColor(randomColor));
  * Comment out the code above, and refactor your function to use a switch-case statement
  */
 
-
-
-
 //switch statement
 function analyzeColor (colorName) {
     switch(colorName) {
@@ -95,11 +92,11 @@ function analyzeColor (colorName) {
 let userColor = prompt('Enter any color!')
 alert(analyzeColor(userColor));
 
+//The line below also works by combining lines 92 & 93 all in to one line.
+//alert(analyzeColor(prompt('Enter a color')));
+
 
 /* ########################################################################## */
-
-
-
 
 /**
  * TODO:
@@ -123,67 +120,30 @@ alert(analyzeColor(userColor));
  * return value.
  */
 
+//NOTES
+//if you are using a return statement a break statement will not be needed. They have the same function.
 
-function calculateTotal (luckyNumber, totalAmount) {
+function calculateTotal (luckyNumber, totalAmount = 100) {
     if (luckyNumber === 0) {
-        return;
+        let discountedPrice = totalAmount - 0 ;
+        console.log(`You do not get a discount. Your discount price is the full amount of $${discountedPrice}`);
+        return discountedPrice ;
     } else if (luckyNumber === 1) {
-        return;
+        console.log()
+        let discountedPrice = totalAmount - (totalAmount * discountedPrice);
+        return discountedPrice ;
     } else if (luckyNumber === 2) {
-        return;
+        return discountedPrice ;
     } else if (luckynumber === 3) {
-        return;
+         return discountedPrice ;
     } else if (luckyNumber === 4) {
-        return;
+         return discountedPrice ;
     } else if (luckyNumber === 5) {
 
     } else {
         console.log('None of the above apply');
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -237,7 +197,9 @@ if (askNum === true) {
         alert('Okay no problem!');
  }
 
+//Can use ternary operator below to one line the code.
+// alert(`${userNumber} is ${isEven ? 'even' : 'odd'} `);
 
 
-
+//
 */
