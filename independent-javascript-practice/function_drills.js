@@ -1,19 +1,45 @@
 /*
 Function Drills
 Functions using conditionals but not loops or arrays:
+*/
+//Make a function named isOdd(number)
+function isOdd(number) {
 
-    Make a function named isOdd(number)
-Make a function named isEven(number)
-Make a function named identity(input) that returns the input exactly as provided.
-    Make a function named isFive(input)
-Make a function named addFive(input) that adds five to some input.
-    Make a function named isMultipleOfFive(input)
-Make a function named isThree(input)
-Make a function named isMultipleOfThree(input)
-Make a function named isMultipleOfThreeAndFive(input)
-Make a function named isMultipleOf(target, n) which checks if target is evenly divisible by n
-Make a function named isTrue(boolean)
-Make a function named isFalse(boolean)
+}
+
+//Make a function named isEven(number)
+function isEven(number) {
+
+}
+
+
+//Make a function named identity(input) that returns the input exactly as provided.
+function identity(input) {
+    return input;
+}
+
+
+//Make a function named isFive(input)
+function isFive(input) {
+
+}
+
+
+//Make a function named addFive(input) that adds five to some input.
+function addFive(input) {
+    return input + 5;
+}
+
+//Make a function named isMultipleOfFive(input)
+//Make a function named isThree(input)
+//Make a function named isMultipleOfThree(input)
+//Make a function named isMultipleOfThreeAndFive(input)
+//Make a function named isMultipleOf(target, n) which checks if target is evenly divisible by n
+//Make a function named isTrue(boolean)
+//Make a function named isFalse(boolean)
+
+
+/*
 Make a function named isTruthy(input), remember that values other than true will behave like true
 Make a function named isFalsy(input), remember that values other than false behave like false
 Make a function named isVowel(letter)
