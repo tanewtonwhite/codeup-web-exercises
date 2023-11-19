@@ -21,7 +21,7 @@
      * accessing each element's index.
      */
     //using spread operator, not sure if correct
-//console.log(...names)
+console.log(...names)
 
 // individual console.log statements printing array names
 console.log(names[0])
