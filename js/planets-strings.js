@@ -1,8 +1,8 @@
-(function(){
+(function() {
     "use strict";
-
-    var planetsString = "Mercury|Venus|Earth|Mars|Jupiter|Saturn|Uranus|Neptune";
-    var planetsArray;
+})
+    let planetsString = "Mercury|Venus|Earth|Mars|Jupiter|Saturn|Uranus|Neptune";
+    let planetsArray;
 
     /**
      * TODO:
@@ -10,8 +10,9 @@
      * planetsArray.
      * console.log planetsArray to check your work
      */
-
-    // console.log(planetsArray);
+    console.log(planetsString);
+    planetsArray = planetsString.split('|');
+    console.log(planetsArray);
 
     /**
      * TODO:
@@ -23,5 +24,9 @@
      * list. You will need an opening AND closing <ul> tags around the entire
      * string, and <li> tags around each planet.
      */
+    let randomArray = ['car','house', 'computer', 'phone', 'cup'];
+    console.log(randomArray);
+    newArray = randomArray.join("<br>");
+    console.log(newArray);
 
 //})();
