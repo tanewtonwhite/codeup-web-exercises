@@ -31,10 +31,23 @@ function addFive(input) {
 }
 
 //Make a function named isMultipleOfFive(input)
+function isMultipleOfFive(input) {
+}
 //Make a function named isThree(input)
+function isThree(input) {
+}
 //Make a function named isMultipleOfThree(input)
+const isMultipleOfThree = (input)=> {};
+
 //Make a function named isMultipleOfThreeAndFive(input)
+const isMultipleOfThreeAndFive = (input) => {};
+
 //Make a function named isMultipleOf(target, n) which checks if target is evenly divisible by n
+function isMultipleOf (target, n) {
+    if (target % 2 === 0) {
+        return true;
+    }
+}
 //Make a function named isTrue(boolean)
 //Make a function named isFalse(boolean)
 
