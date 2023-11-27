@@ -44,12 +44,12 @@ const isMultipleOfThreeAndFive = (input) => {};
 
 //Make a function named isMultipleOf(target, n) which checks if target is evenly divisible by n
 function isMultipleOf (target, n) {
-    if (target % 2 === 0) {
-        return true;
-    }
 }
 //Make a function named isTrue(boolean)
+function isTrue(boolean){}
 //Make a function named isFalse(boolean)
+
+function isFalse(boolean) {}
 
 
 /*
@@ -127,7 +127,6 @@ Write a function called rest(input) that returns everything but the first charac
 
     Write a function called count(input) that takes in a string and returns the number of characters.
 
-    Write a function called add(a, b) that returns the sum of a and b
 
 Write a function called subtract(a, b) that return the difference between the two inputs.
 
@@ -137,7 +136,6 @@ Write a divide(numerator, denominator) function that returns a divided by b
 
 Write a remainder(number, divisor) function that returns the remainder left over when dividing number by the divisor
 
-Write the function square(a) that takes in a number and returns the number multiplied by itself.
 
     Write a function called sumOfSquares(a, b) that uses only your add() function and your square function and not + or * operators
 
@@ -157,11 +155,23 @@ EXTRA CHALLENGE: create a function that will return how many whitespace characte
 
 Create a function returnTrueMessage() that returns the string "Hey, it's true!"
 
-Create a function returnFalseMessage() that returns the string "Hey, it's false!"
 Create a function returnMessage() that takes in a function and returns the call to the function
 Experiement passing in different functions.
-    Create a function, willLoginUser() that takes in a username string, password string, user age, a boolean indicating if they are an admin.
+reate a function, willLoginUser() that takes in a username string, password string, user age, a boolean indicating if they are an admin.
 
     The function will return true if the username is not the same as the password and the user is at least 18 years old. If the user is an admin, they do not have to be a certain age but the password must still not match the username.
 
  */
+//Create a function returnFalseMessage() that returns the string "Hey, it's false!"
+function returnFalseMessage{
+    return "Hey, it's false!";
+}
+//Write the function square(a) that takes in a number and returns the number multiplied by itself.
+function square(number){
+    return number * number;
+}
+
+//Write a function called add(a, b) that returns the sum of a and b
+function add(a,b) {
+    return a + b;
+}
